@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<form method="post" action="" enctype="multpart/form-data">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" required autocomplete="off" autofocus>
+		<br><br>
+
+		<label for="senha">Senha:</label>
+		<input type="password" id="senha" name="senha" placeholder="Digite senha de 8 dígitos">
+		<br><br>
+
+		<label for="dt_nasc">Data Nascimento:</label>
+		<input type="date" id="dt_nasc" name="dt_nasc">
+		<br><br>
+		
+		<label for="hr_nasc">Hora do Nascimento:</label>
+		<input type="time" id="hr_nasc" name="hr_nasc">
+		<br><br>		
+
+		<label for="idade">Idade:</label>
+		<input type="number" id="idade" name="idade" value="18" min="18" max="35" >
+		<br><br>				
+
+		<label for="nota">Nota para página:</label>
+		<input type="range" id="nota" name="nota" value="0" min="0" max="10" >
+		<br><br>	
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email">
+		<br><br>
+
+		<label for="cidade">Cidade</label>
+		<select id="cidade" name="cidade">
+			<option disabled selected>Cidades</option>
+			<optgroup label="RN">
+				<option value="nat">Natal</option>	
+				<option value="mos">Mossoró</option>
+			</optgroup>
+			<optgroup label="PE">
+				<option value="rec">Recife</option>	
+				<option value="car">Caruaru</option>
+			</optgroup>			
+			<option value="bsb">Brasília</option>
+			<option value="poa">Porto Alegre</option>
+		</select>
+		<br><br>
+
+		<fieldset>
+			<legend>Áreas de interessse</legend>
+
+			<label> 
+				<input type="checkbox" name="espotes" value="espotes" checked>
+				Esporte
+			 </label>
+			<label> 
+				<input type="checkbox" name="cinema" value="cinema">
+				Cinema
+			 </label>
+			 <label> 
+				<input type="checkbox" name="viagens" value="viagens">
+				Viagens
+			 </label>
+			 <label> 
+				<input type="checkbox" name="comida" value="comida">
+				Comida
+			 </label>			
+		</fieldset>
+		<br><br>
+		<fieldset>
+			<legend>Sexo</legend>
+
+			<label>
+				<input type="radio" name="sexo" value="masculino" checked=""> Masculino
+			</label>
+			<label>
+				<input type="radio" name="sexo" value="feminino"> Feminino
+			</label>
+		</fieldset>
+		<br><br>
+
+		<label for="descricao">Descrição</label>
+		<br>
+		<textarea id="descricao" name="descricao" cols="50" rows="5" style="resize: none;"></textarea> <!--resize: none retira a posibilidade de redimencionamento do memo-->
+		<br><br>
+
+		<input type="file" name="foto">
+		<br><br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Limpar</button>
+	</form>
+</body>
+</html>

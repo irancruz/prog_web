@@ -1,0 +1,17 @@
+h1{
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	margin: 2;
+}
+.imagem{
+	width: 270px; 
+	height: 250px;
+}
+h2{
+   border: 2px solid;
+   border-color: black;	
+   text-align: center;
+}

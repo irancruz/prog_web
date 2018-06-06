@@ -1,0 +1,58 @@
+@font-face{
+	font-family: 'Pacifico';
+	src: url('fonts/Pacifico/Pacifico-Regular.ttf');
+
+	font-family: 'Pacifico';
+	src: url('fonts/Lobster/Lobster-Regular.ttf');
+}
+
+h1 {
+	 text-shadow: 3px 2px red;
+	 text-align: center;
+	 font-size: 50px
+}
+
+#paragrafo1{
+	font-size: 24px; 
+}
+
+.fundo{
+	background-color: rgb(100,100,0);
+	color: black;	
+}
+
+.borda-azul {
+	border: 5px solid;
+	border-color: blue;				
+}
+
+.teste, p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+p.teste {
+   background-color: gray;	
+}
+
+body {
+  
+  font-family: 'Pacifico', cursive;
+}
+
+h2{
+    font-family: 'Lobster', cursive;	 	
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+#foto1{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}

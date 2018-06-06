@@ -1,0 +1,17 @@
+p {
+	text-align: justify;
+	margin: 2;
+}
+
+h2 {
+   background-color: gray;	
+   border: 5px solid;
+   border-color: black;	
+   text-align: center;
+}
+
+img{
+	float: right;
+	width: 180px;
+	height: 170px;	
+}

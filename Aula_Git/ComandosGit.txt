@@ -1,0 +1,17 @@
+Botão direito na pasta - guit brash here
+git init
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git status
+git add . ("." adiciona todos as pastas)
+git commit -m 'commit inicial'
+git remote add origin https://github.com/irancruz/prog_web.git
+git push -u origin master (subir para o servidor)
+git pull origin master (trazer para máquina)
+git clone https://github.com/irancruz/prog_web.git
+
+SERVIDORES DE REPOSITÓRIOS GIT'S
+github.com
+GitLab
+bitbucket.org 
