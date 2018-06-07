@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade - Tabelas</title>
+	<style type="text/css">
+		table, th,  td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		#tab1{
+				width: 70px;
+				height: 70px;
+			}
+		#tab2{
+				width: 170px;
+				height: 60px;
+			}	
+		#tab3{
+				width: 110px;
+				height: 60px;
+			}	
+		.tab4cab{
+			background-color : rgb(79,129,189);		
+			color: rgb(255,255,255);
+
+		}	
+		.tab4lin{
+			background-color : rgb(208,216,232);		
+		}	
+		.t4c1{
+			width: 30px;
+			height: 20px;			
+		}
+		.t4c2{
+			width: 150px;
+			height: 20px;			
+		}
+		#tab4{
+			font-family: 'calibri', serif;
+			font-size: 12pt;			
+		}
+		#linha1{
+			background-color : rgb(79,129,189);		
+			color: rgb(255,255,255);			
+		}
+		#linha2{
+			background-color : rgb(208,216,232);		
+		}
+		#tabela{
+			color: font-family: 'calibri', serif;
+			font-size: 12pt;				
+		}
+		#coluna2{
+			width: 90px;
+		}
+	</style>	
+</head>
+<body>
+	<br><br>
+	1
+	<table id="tab1">
+		<tr>
+			<td>A</td>
+			<td>B</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+	</table>
+	<br>
+
+	2
+	<table id="tab2">
+		<tr style="background-color : rgb(136,142,109)">
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+			<td>G</td>
+			<td>H</td>
+		</tr>		
+	</table>
+	<br>
+
+	3
+	<table id="tab3">
+		<tr>
+			<td>A</td>
+			<td>1</td>
+			<td>4</td>			
+		</tr>
+		<tr>
+			<td>B</td>
+			<td>2</td>
+			<td>5</td>			
+		</tr>		
+		<tr>
+			<td>C</td>
+			<td>3</td>
+			<td>6</td>			
+		</tr>				
+	</table>
+	<br>
+
+	4
+	<table id="tab4">
+		<tr class="tab4cab">
+			<td class="col4">N°</td>
+			<td>Nome</td>
+		</tr>
+		<tr class="tab4lin">
+			<td class="t4c1">1</td>
+			<td class="t4c2">Zé</td>						
+		</tr>		
+		<tr class="tab4lin">
+			<td class="t4c1">2</td>
+			<td class="t4c2">Toinho</td>			
+		</tr>			
+		<tr class="tab4lin">
+			<td class="t4c1">3</td>
+			<td class="t4c2">Chico</td>			
+		</tr>					
+	</table>
+	<br>
+
+	4 - "Fazendo com BR"
+	<table id="tabela">
+		<tr id="linha1">
+			<th>N°</th>
+			<th id="coluna2">Nome</td>
+		</tr>
+		<tr id="linha2">
+			<td style = "text-align: center;">1 <br>2<br>3</td>
+			<td>Zé<br>Toin<br>Chico<br></td>
+		</tr>					
+	</table>
+</body>
+</html>
