@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade Perfeita 2</title>
+	<style type="text/css">
+		table, th,  td {
+			border: 1px solid black;
+			border-collapse: collapse;			
+        }
+
+     table	{
+     	margin:auto;
+     	width: 60%;
+     	font-family: 'calibri', serif;
+     	font-size: 12pt;	
+     }
+
+	table#t01 tr:nth-child(even) {
+   		background-color: #eee;
+	}
+	table#t01 tr:nth-child(odd) {
+   		background-color: #fff;
+	}
+	
+	th{
+       	background-color : rgb(79,129,189);		
+       	color: rgb(255,255,255);       	
+    }
+    .tam{
+    	width: 50px;
+    	height: 12px; 
+    }
+    .gol{
+		width: 24px;
+    	height: 12px;
+    }
+
+	</style>			
+</head>
+<body>
+	<table id="t01">
+		<tr>
+			<th colspan="2">Voos do Aeroporto de Natal</th>
+		</tr>
+		
+		<tr>
+			<td rowspan="3">Natal - Salvador  </td>
+			<td>2 vezes ao dia</td>
+		</tr>
+		<tr>
+			<td>Início: 1990</td>			
+		</tr>
+		<tr>
+			<td> 
+				<img class = "tam" src="imagens/tam.png">
+				<img class = "gol" src="imagens/gol.png">
+			</td>			
+		</tr>
+
+		<tr>
+			<td rowspan="3">Natal - São Paulo  </td>
+			<td>5 vezes ao dia</td>
+		</tr>
+		<tr>
+			<td>Início: 1981</td>			
+		</tr>
+		<tr>
+			<td>
+				<img class = "tam" src="imagens/tam.png">
+				<img class = "gol" src="imagens/gol.png"> 
+				<img style="width: 50px; height: 12px;" src="imagens/azul.png"> 
+		</td>			
+		</tr>
+
+		<tr>
+			<td rowspan="3">Natal - Lisboa  </td>
+			<td>3 vezes por semana</td>
+		</tr>
+		<tr>
+			<td>Início: 2003</td>			
+		</tr>
+		<tr>
+			<td><img style="width: 50px; height: 20px;" src="imagens/avianca.png"> 
+			<img style="width: 30px; height: 20px;" src="imagens/tap.png"></td>			
+		</tr>
+	</table>
+</body>
+</html>
