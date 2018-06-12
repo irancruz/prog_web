@@ -1,0 +1,66 @@
+<!-- 
+* HTML Blocks (div/span)
+* CSS Margin
+* CSS Padding
+* CSS Position
+* CSS Float
+* CSS Overflow -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabalhando com DIVs</title>
+    <style> 
+        *{/*coloca margem zero para body*/
+            margin: 0px;
+            padding: opx;
+        }
+        #div1{            
+            background-color: aqua;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            border: 2px solid #4CAF50;                       
+        }
+        #div2{
+            background-color: yellowgreen;            
+            margin: 15px 10px 90px 0px; /* top, right, bottom, left */
+            padding: 30px;
+            height: 1200px;
+            position: relative;
+            z-index: -1;
+           
+        }
+        #div3{
+            
+            background-color: orchid;
+            position: fixed;
+            bottom: 0;
+            right: 0;    
+            width: 100px;        
+        }
+        #divinha{
+            position: absolute;
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;       
+            right: 0;     
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Sticky</h1>
+    <div id="div1">Div 01</div>
+    <div>
+        <div id="div2">
+                Div 02
+                <div id="divinha"></div>
+        </div>
+    </div>
+    
+    <div id="div3">Div 03</div>
+</body>
+</html>
