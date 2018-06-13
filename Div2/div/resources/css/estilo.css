@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#container {
+    margin: auto;
+    width: 700px;
+}
+
+#cabecalho, #rodape {
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#corpo {
+    width: 700px;
+    height: 800px;
+    background-color: pink;
+}
+
+#menu-superior {
+    width: 700px;
+    height: 80px;
+    background-color: brown;
+}
+
+#menu-lateral {
+    width: 100px;
+    height: 800px;
+    float: left;
+    background-color: purple;    
+}
+
+#conteudo {
+    width: 400px;
+    height: 800px;
+    float: left;
+    background-color: chocolate;
+}
+
+#feeds {
+    width: 200px;
+    height: 800px;
+    float: left;
+    background-color: lightcoral
+
+}

@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Song Myung';
+	src: url(fonts/Song_Myung/SongMyung-Regular.ttf);
+}
+
+#paragrafo1 {
+
+	font-size: 24px;
+}
+
+.fundo {
+	
+	text-align: center;
+}
+
+body {
+
+
+    font-family: 'Song Myung', serif;
+
+ }
+
+ h2	{
+
+ 	font-family: 'Inconsolata', monospace;
+ }
+
+#foto {
+	width: 100px;
+	height: 70px;
+	border-radius: 50%;
+}
