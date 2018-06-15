@@ -11,6 +11,7 @@ git push -u origin master (subir para o servidor)
 git pull origin master (trazer para máquina)
 git clone https://github.com/irancruz/prog_web.git
 
+git Weskleymb
 SERVIDORES DE REPOSITÓRIOS GIT'S
 github.com
 GitLab

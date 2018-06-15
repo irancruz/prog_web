@@ -1,6 +1,6 @@
 <!--
-- header - cabe
-- nav
+- header - cabeçalho
+- nav -navegação menu
 - section
 - nav
 - footer
@@ -9,7 +9,7 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +18,35 @@
     <title>Jose da Silva Cunha</title>
 </head>
 <body>
-    <h1>Jose da Silva Cunha</h1>
+    <header id="cabecalho">
+        <figure id="banner"></figure>
+        <section id="redes-sociais">
+            <figure id="facebook"></figure>
+            <figure id="twitter"></figure>
+            <figure id="instagran"></figure>
+        </section>
+    </header>    
     <nav id="menu">
-        <input type="button" value="Home">
-        <input type="button" value="Projetos">
-        <input type="button" value="Doação">
-        <input type="button" value="Fale conosco ">                  
+        <ul>
+            <li><a href="#">Histórico</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="fale.html">Fale conosco</a></li>
+        </ul>
     </nav>   
-    <div id="cabecalho">
+    <saction id="corpo">
+        <article id="conteudo"></article>
+        <figure id="foto"><img src="img/politico.png" >
+            <figcaption>
+                Trabalho com seriedade
+            </figcaption>
+        </figure>
+    </saction>
+    <footer id="rodape">RODAPE</footer>
+
+    <!--
+    <h1>Senador da Republia - Jose da Silva Cunha</h1>
+    <div >
         <p style="width: 520px">
             Jose da Silva Cunha (Rio de Janeiro, 5 de junho de 1959) é um bacharel em direito e político brasileiro, ex-prefeito de Natal. Foi eleito prefeito da capital potiguar nas eleições de 2012, tendo seu mandato iniciado em 1 de janeiro de 2013,[1] e foi reeleito em 2016, ainda no primeiro turno, com 63,42% dos votos válidos,[2] totalizando 225.741 votos.[3] Em 6 de abril de 2018, renunciou ao mandato para disputar as eleições de outubro do mesmo ano.[4] Antes disso, ele havia governado a mesma cidade entre 2002 e 2008.
         </p>         
@@ -43,9 +64,12 @@
             </p>
     </div>
     
-    <div id="corpo">
-        
+    <div>
+       <input type="button" value="Home">
+        <input type="button" value="Projetos">
+        <input type="button" value="Doação">
+        <input type="button" value="Fale conosco ">    
        
-    </div>
+    </div>-->
 </body>
 </html>

@@ -1,4 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#cabecalho {
+    background-color: aqua;
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+
+#banner{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+}
+
+#redes-sociais{
+    background-color: blueviolet;
+    width: 21%;
+    height: 7%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#facebook, #twitter, #instagran{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+#facebook{
+    background-color: blue;
+}
+
+#twitter{
+    background-color: chartreuse;
+}
+
+#instagran{
+    background-color: darkgreen
+}
+
+#menu {
+    width: 100%;
+    height: 10%;
+    background-color: lightsalmon;    
+}
+
+#corpo {
+    background-color: slateblue;
+    width: 100%;
+    height: 50%;   
+    
+}
+
+#conteudo {
+    background-color:goldenrod;
+    width: 100%;
+    height: 100%;    
+}
+
+#foto {
+    background-color:fuchsia;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 15px;
+    top: 15px;    
+}
+
+#rodape{
+    background-color:darkred;
+    width: 100%;
+    height: 15%;
+}
+
+#facebook img, #twitter img, #instagran img{
+    width: 100%;
+    left: 100%;
+}
+
+#facebook img {
+    width: 100%;
+    left: 100%;
+    opacity: 0.7;
+}
+li{
+    display: inline;
+    margin: 0px 20px;    
+    
+}
+a, a:visited {
+    text-decoration: none;    
+}
+#foto img{
+    width: 100%;
+    left: 100%;    
+}
+/*    
 input[type=button] {
     background-color: blue;
     border: none;
@@ -10,7 +116,7 @@ input[type=button] {
 }
 #menu{            
     background-color: blue;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky; /* Safari 
     position: sticky;
     top: 0;
     border: 2px solid #4CAF50;      
@@ -26,7 +132,7 @@ input[type=button] {
 }
 #cabecalho{
     background-color: yellowgreen;            
-    margin: 15px 10px 90px 0px; /* top, right, bottom, left */
+    margin: 15px 10px 90px 0px; /* top, right, bottom, left 
     padding: 30px;
     height: 1200px;
     position: relative;
@@ -35,3 +141,4 @@ input[type=button] {
 p{
     text-align: justify;
 }
+*/
