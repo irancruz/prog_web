@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+
+    #container {
+        width: 500px;
+        margin: auto;
+    }
+
+    #conteudo, #rodape {
+        display: none;
+    }
+
+    #menu {
+        width: 500px;
+        height: 100px;
+        background-color: blue;
+    }
+
+    #feeds {
+        width: 500px;
+        height: 300px;
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px)  {
+    
+    #container {
+        width: 950px;
+        margin: auto;
+    }
+    #conteudo {
+        display: none;
+    }
+
+    #menu, #rodape {
+        width: 950px;
+        height: 200px;
+        background-color : chartreuse;
+    }
+
+    #feeds {
+        width: 950px;
+        height: 300px;
+        background-color: brown;
+    }
+}
+
+
+@media screen and (min-width: 993px)  {
+    
+    #container {
+        width: 993px;        
+        margin: auto;
+    }
+
+    #menu, #rodape {  
+        width: 993px;     
+        height: 300px;         
+        background-color : blue;
+    }
+
+    #corpo {  
+        width: 993px;     
+        height: 700px;                 
+    }
+
+    #conteudo {
+        width: 496px;     
+        height: 700px;  
+        background-color: darkorange;
+    }  
+
+    #feeds {   
+        width: 496px;     
+        height: 700px;       
+        background-color: brown;
+    }
+}
