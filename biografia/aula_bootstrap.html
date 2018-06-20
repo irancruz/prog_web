@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resources/css/bootstrap.css">     
+    <link rel="stylesheet" href="resources/css/bootstrap-grid.css"> 
+    <link rel="stylesheet" href="resources/css/bootstrap-reboot.css"> 
+    <title>Aula de Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <!--Inicio da linha-->
+        <div class="row">
+            <!--Inicio da coluna Cadastro de Produto-->
+            <div class="col-6">
+                <fieldset>
+                    <legend>Cadastro de Produto</legend>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome">
+                        </div>   
+                        <div class="form-group">
+                            <label for="categoria">Categoria</label>
+                            <select class="form-control" name="categoria" id="categoria">
+                                <option value="1">Eletrônicos</option>
+                                <option value="2">Telefonia</option>
+                                <option value="3">Informática</option>
+                            </select>
+                        </div>          
+                        <br>   
+                        <button class="btn btn-success" type="submit">Cadastrar</button>
+                        <button class="btn btn-danger" type="reset">Limpar</button>
+                    </form>
+                </fieldset>
+            </div>
+            <!--Final da coluna Cadastro de Produto-->
+            <!--Inicio da coluna de Lista de Produtos-->
+            <div class="col-6">  
+                <fieldset>
+                    <legend>Lista de Produtos</legend>
+                    <table class="table table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>nome</th>
+                                <th>categoria</th>
+                                <th>opcões</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Notebook HP</td>
+                                <td>Informática</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>TV 50'' Philco</td>
+                                <td>Eletrônicos</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Celular Samsung 10</td>
+                                <td>Telefonia</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Pen drive sandisk</td>
+                                <td>Informática</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>              
+            </div>            
+            <!--Final da coluna Lista de Produto-->
+        </div>
+        <!--Final da linha-->
+    </div>   
+    
+
+    <script src="resources/js/jquery.js"></script> 
+    <script src="resources/js/popper.js"></script> 
+    <script src="resources/js/bootstrap.js"></script> 
+    <script src="resources/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
