@@ -1,0 +1,14 @@
+<html>
+    <script>
+       let numero = 0;
+    for(let i=0; i<10; i++){
+        numero = parseInt(prompt('Digite um numero de 0 a 10'));
+        if (isNaN(numero) || numero>10 || numero<0) {
+            alert('Numero invalido! Digite um numero de 0 a 10')
+        } else {
+            break;
+        }
+    }
+   alert(numero + ' e um numero valido');
+    </script>
+</html>
