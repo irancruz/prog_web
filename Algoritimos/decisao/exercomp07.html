@@ -1,0 +1,30 @@
+<html>
+<script>
+    let number1 = parseInt(prompt('Digite o primeiro numero'));
+    let number2 = parseInt(prompt('Digite o segundo numero'));
+    let number3 = parseInt(prompt('Digite o terceiro numero'));
+
+    let auxiliar;
+
+    if (number1 > number2) {
+        auxiliar = number1;
+        number1 = number2;
+        number2 = auxiliar;                
+    }
+
+    if (number2 > number3) {
+        auxiliar = number2;
+        number2 = number3;
+        number3 = auxiliar;                
+    }
+
+    if (number1 > number2) {
+        auxiliar = number1;
+        number1 = number2;
+        number2 = auxiliar;                
+    }
+
+    alert('O maior numero e ' + number3 + ', e o menor numero e ' + number1);
+</script>
+
+</html>

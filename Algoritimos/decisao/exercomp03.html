@@ -1,10 +1,23 @@
 <html>
     <script>
-    let sexo = prompt('Digite uma letra');
+    let sexo = prompt('Digite o sexo')
+               .toLowerCase()   //Converte em minusculo
+               .trim()          //Remove espaços nas pontas 
+               .charAt(0);      //Pega o primeiro caractere
    
-    if (sexo == 'F') {
+   switch (sexo) {
+       case 'f': 
             alert('F - Feminino');
-        } else if (sexo == 'M') {
+            break;
+        case 'f':
+            alert('M - Masculino');
+            break;     
+        default:alert('Sexo invalida');
+   }
+   // ou com IF
+    if (sexo == 'f') {
+            alert('F - Feminino');
+        } else if (sexo == 'm') {
             alert('M - Masculino');            
         } else {
             alert('Entrada invalida');
