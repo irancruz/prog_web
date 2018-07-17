@@ -1,0 +1,18 @@
+<html>	
+		<meta charset="utf-8">		
+		<script>			
+            let nome1 = prompt('Informe o seu nome');
+            let nome2 = '';
+            let nome3 = '';
+			for (let i = 0; i < nome1.length; i++) {
+                nome2 += nome1.charAt(i).toUpperCase();
+                debugger;
+                for (let a = 0; a < nome2.length; a++) {
+                    nome3 += nome2.charAt(a).toUpperCase() + '';
+                    debugger;
+                }
+                nome3 += '\n';
+            }
+			alert(nome3);
+		</script>	
+</html>

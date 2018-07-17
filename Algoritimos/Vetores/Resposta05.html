@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    <script>            
+        let numeros = [0, 1, 2, 3, 4, 5, 6, 7, 10, 33, 20, 8, 9, 12, 19, 16, 17, 18, 13, 12];
+        let par = [];
+        let imp = [];
+        numeros.sort(function(a,b){return a - b});
+        for (let i=0; i < 20; i++) {
+           // numeros[i] = prompt('Digite o ' + (i+1)+ '° número') ;  
+           if (numeros[i]%2==0) {
+                //par[par.length] = numeros[i];
+                par.push(numeros[i]);
+            }else{                
+                //imp[imp.length] = numeros[i];
+                imp.push(numeros[i]);
+            }            
+        }    
+        alert('Números vetor principal: '+ numeros.toString()+
+        '\nNúmeros pares: '+ par.toString()+'\nNúmeros ímpares: '+imp.toString());    
+    </script>
+</html>

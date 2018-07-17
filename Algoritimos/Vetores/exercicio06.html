@@ -1,0 +1,40 @@
+
+<html>	
+		<meta charset="utf-8">		
+        <script>       
+			let aluno = new Array(2);
+            let aprovado = [];
+            let reprovado = [];
+            for (let j = 0; j < 2; j++) {
+                let nome = new Array(2);
+                let notas = new Array(4);
+                let media = new Array(2);
+                let soma = 0;
+                
+                let nome_valido = false;
+                do {
+                    nome[0] = prompt('Informe o nome do aluno').toUpperCase();
+                    nome_valido = (isNaN(nome[0]));	
+                } while (!nome_valido);
+                for (let z = 0; z < notas.length; z++) {
+                    let nota_valida = false;
+                    do {
+                        notas[z] = parseFloat(prompt('Informe a nota ' + (z+1)));
+                        nota_valida = (!isNaN(notas[z]));	
+                    } while ((!nota_valida) || ((nota[z] < 0) || (nota[z] > 10)));
+                    //notas[z] = parseFloat(prompt('Informe a nota ' + (z+1)));
+                    soma += notas[z];
+                }
+                media[j] = soma/4;
+                nome[1] = notas + ' Média '+ media[j];
+                aluno[j] = nome.join(' ') + '\n';
+                if (media[j] >= 7) {
+                    aprovado [j] = aluno[j] + '\n';
+                }
+                else {
+                    reprovado[j] = aluno[j];;
+                }
+            }
+            alert('Aluno\n' + aluno.join(' ') + '\nAprovados ' + aprovado.join(' ') + '\nReprovados\n' + reprovado.join(' '));
+		</script>	
+</html>

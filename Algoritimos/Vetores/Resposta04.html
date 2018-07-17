@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    <script>            
+        let letras = ['a', 's', 'g', 'i', 'q', 'u', 't', 'v', 'z', 'y'];
+        let consoantes = [];        
+        for (let i=0; i < letras.length; i++) {
+           let item = letras[i];
+           if (item != 'a' && item != 'e' && item != 'i' && 
+           item != 'o' && item != 'u' ) {                
+                consoantes.push(item);
+           }
+        }    
+        alert('Quantidade: '+ consoantes.length+
+        '\nConsantes: '+ consoantes);    
+    </script>
+</html>

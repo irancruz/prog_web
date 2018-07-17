@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<script>
+    let valores = [1, 5, 'teste' , 9, 14, 10];
+    let sum = soma(valores);
+    alert(sum);
+    function soma(numeros) {
+        let resultado = 0;
+        for (let i = 0; i < numeros.length; i++) {
+            if (!isNaN(numeros[i])){
+                resultado += numeros[i];
+            }            
+        }
+        return resultado;
+    }     
+    let outro_vetor = [25, 14, 3];
+    alert(soma(outro_vetor));
+</script>
+
+
+</html>
