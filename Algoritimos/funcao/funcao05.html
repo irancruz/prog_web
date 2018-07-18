@@ -1,0 +1,18 @@
+<html>	
+		<meta charset="utf-8">		
+        <script>
+                
+        function somaImposto(taxaImposto, custo) {
+            let calculo = (taxaImposto/100) * custo;
+            
+            return(calculo);
+            
+        }
+        
+        let custo = parseFloat(prompt('Informe o custo do produto'));
+        let taxaImposto = parseFloat(prompt('Informe qual a porcentagem do imposto'));
+        let imposto = somaImposto(taxaImposto, custo);
+        alert('Valor do produto sem imposto R$' + custo + '\nValor do Imposto R$' + imposto + '\nTotal R$' + (custo + imposto));
+        
+		</script>	
+</html>

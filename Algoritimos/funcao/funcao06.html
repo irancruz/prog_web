@@ -1,0 +1,41 @@
+<html>	
+		<meta charset="utf-8">		
+	</head>
+	<body>
+        <script>
+        
+        function conversao(hora, minutos) {
+            let turno = true; 
+            let hora_digitada = hora + ':' + minutos;
+            if (hora > 12 ) {
+                hora = (hora - 12) + ':' + minutos;
+                turno = true;
+            }
+            else {
+                hora = hora + ':' + minutos;
+                turno = false;
+            }
+
+            let resultado = saida(hora, turno)
+            return(resultado);
+        }
+        function saida(hora, turno) {
+            if (turno) {
+                hora = hora + ' P';
+            }
+            else {
+                hora = hora + ' A';
+            }
+            return(hora);
+        }
+        do {
+            let hora = parseInt(prompt('Informe a hora'));
+            let minutos = parseInt(prompt('Informe os minutos'));
+            conversao(hora, minutos);
+            alert('Hora digitada ' + hora + ':' + minutos + '\nHora convertida ' + conversao(hora, minutos) +'.M');
+            var continuar = prompt('Deseja continuar? [S/N]').toUpperCase();
+        } while (continuar != 'N');
+        
+		</script>	
+	
+</html>
