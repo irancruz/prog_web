@@ -1,0 +1,10 @@
+***Plugins Java****
+- DBeaver (apache 2.0)
+- sts - Spring Tools (pivotal)
+- 
+
+***Orientada a Objeto***
+  - clase - conjunto de objetos 
+  - objeto - Elementos (lapis azul)
+  - atributo - Propriedade
+  - metodo - Funcionalidades
