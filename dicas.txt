@@ -1,4 +1,10 @@
+Java
 - Control + 3 - ggas - Generate Getters and Setters (criar get e set)
 - main + Control + espaço - public static void main
 - Control + 3 - gcuf - Generate Constructor using Fields (cria construtores)
 - Control + 3 - gs - Generate toString - (cria toString)
+
+Programas
+
+Astah communit - Planejamento
+
