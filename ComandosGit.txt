@@ -10,6 +10,11 @@ git remote add origin https://github.com/irancruz/prog_web.git
 git push -u origin master (subir para o servidor)
 git pull origin master (trazer para máquina)
 git clone https://github.com/irancruz/prog_web.git
+quando clonar
+git remote
+git remote remove origin
+git remote add origin https://github.com/irancruz/revisao-java-noite
+
 
 git Weskleymb
 SERVIDORES DE REPOSITÓRIOS GIT'S
