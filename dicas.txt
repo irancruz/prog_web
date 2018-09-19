@@ -9,5 +9,9 @@ Programas
 Astah communit - Planejamento
 MySQL Workbench - Conector MySQL
 DBDesigner - Modelo BD
+PGAdmin - postgresql
+DBeaver - Conecta qualquer banco de dados
 
+Java Repositorio
+mvnrespository
 

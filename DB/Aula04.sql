@@ -1,0 +1,1 @@
+select DEP_NOME, DEP_DESCONTO from tb_departamentos
