@@ -8,6 +8,8 @@ Java
 - Maven - Gerenciamento de dependencias
 - mvnrespository.com - repositorio java diverços biblioteca(mysql connector, mssql,mariadb,
 hibernate-core, e etc)
+- Control + shift + o - apaga os imports que não estão sendo utilizados
+- Spring initializr
 
 Programas
 
