@@ -10,6 +10,7 @@ Java
 hibernate-core, e etc)
 - Control + shift + o - apaga os imports que não estão sendo utilizados
 - Spring initializr
+- sts - plugs spring (facilita a ide na digitação spring)
 
 Programas
 
