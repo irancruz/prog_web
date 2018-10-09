@@ -15,6 +15,7 @@ git remote
 git remote remove origin
 git remote add origin https://github.com/irancruz/revisao-java-noite
 
+git checkout iran - mudar de branch
 
 git Weskleymb
 SERVIDORES DE REPOSITÓRIOS GIT'S
