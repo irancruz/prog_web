@@ -5,7 +5,9 @@ git config --global user.email johndoe@example.com
 
 git status
 git add . ("." adiciona todos as pastas)
+git reset - volta passo anterior
 git commit -m 'commit inicial'
+
 git remote add origin https://github.com/irancruz/prog_web.git
 git push -u origin master (subir para o servidor)
 git pull origin master (trazer para máquina)
