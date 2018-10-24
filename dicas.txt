@@ -20,6 +20,12 @@ DBDesigner - Modelo BD
 PGAdmin - postgresql
 DBeaver - Conecta qualquer banco de dados
 
+Postman - teste de webservice
+
 Java Repositorio
 mvnrespository
 
+Criar paginas html
+-layoutit.com
+-template bootstrap
+-https://getbootstrap.com/ + exemple
