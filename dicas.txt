@@ -21,6 +21,9 @@ PGAdmin - postgresql
 DBeaver - Conecta qualquer banco de dados
 
 Postman - teste de webservice
+jaspreport - gerador de relatorio HTML Java
+FireMonkey - Desenvolver mobile
+
 
 Java Repositorio
 mvnrespository
